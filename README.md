@@ -15,4 +15,8 @@ flexible的font-size（根据屏幕大小和dpr换算出来的）（html的font-
 改变html的font-size,达到等比缩放->
 两次等比缩放得到适应的页面，解决了1px的bug
 ```
+###注意：
+####一、font-size的使用
+我们在移动端布局，推荐不用rem对字体做改变，但是要用sass写个宏定义
+如果对于需要改变的可以使用rem，只是不推荐。
 #####我的工具是sublime text3的cssrem是大漠的w3cplus介绍的
